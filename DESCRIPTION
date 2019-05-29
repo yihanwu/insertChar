@@ -1,0 +1,22 @@
+Package: insertChar
+Type: Package
+Title: Inserts special characters
+Version: 0.1.0
+Author: person(given = "Yihan", 
+             family = "Wu", 
+             role="aut", 
+             email = "yihan.wu@queensu.ca", 
+             comment = c(ORCID = "0000-0002-1202-4208"))
+Maintainer: Yihan Wu <yihan.wu@queensu.ca>
+Description: A RStudio addin for inserting special characters in their 
+    hexadecimal, decimal or HTML named entity codes for use in Rmarkdown.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 2.10)
+Imports: 
+    shiny,
+    miniUI,
+    DT,
+    rstudioapi
+RoxygenNote: 6.1.1

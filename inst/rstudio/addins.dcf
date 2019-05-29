@@ -1,0 +1,4 @@
+Name: Insert special characters
+Description: Inserts selected character in selected encoding at cursor location
+Binding: insertChar
+Interactive: true
