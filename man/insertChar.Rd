@@ -4,10 +4,10 @@
 \alias{insertChar}
 \title{Insert Special Character}
 \usage{
-insertChar(char_df = insertChar::w3charref)
+insertChar(input_char_df = insertChar::w3charref)
 }
 \arguments{
-\item{char_df}{dataframe of W3C character reference. See \code{?w3charref}.}
+\item{input_char_df}{dataframe of W3C character reference. See \code{?w3charref}.}
 }
 \value{
 NULL value. Character codes are inserted when the "Insert *" button is
@@ -17,8 +17,13 @@ pressed
 A Shiny Gadget to select special character and insert into the cursor
 position. Insertion can be for HTML named entities or hexadecimal or decimal codes.
 }
+\details{
+Other character sets not included in W3C may also be loaded if they are in the same
+format as \code{\link{w3charref}}. Then the dataframe can be passed in to
+\code{insertChar} as \code{insertChar(char_df = custom_charset)}.
+}
 \examples{
 if(interactive()){
-  insertChar(char_df = insertChar::w3charref)
+  insertChar(input_char_df = insertChar::w3charref)
 }
 }
