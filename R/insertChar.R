@@ -128,7 +128,7 @@ insertChar <- function(input_char_df = insertChar::w3charref){
   }
 
 
-  shiny::runGadget(ui, server, viewer = shiny::paneViewer(minHeight = 500))
+  shiny::runGadget(ui, server, viewer = shiny::paneViewer(minHeight = 400))
 
 }
 
