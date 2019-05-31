@@ -2,7 +2,7 @@ Package: insertChar
 Type: Package
 Title: Inserts special characters
 Version: 0.1.0
-Author: person(given = "Yihan", 
+Authors@R: person(given = "Yihan", 
              family = "Wu", 
              role="aut", 
              email = "yihan.wu@queensu.ca", 
