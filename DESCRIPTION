@@ -4,7 +4,7 @@ Title: Inserts special characters
 Version: 0.1.0
 Authors@R: person(given = "Yihan", 
              family = "Wu", 
-             role="aut", 
+             role=c("aut", "cre"), 
              email = "yihan.wu@queensu.ca", 
              comment = c(ORCID = "0000-0002-1202-4208"))
 Maintainer: Yihan Wu <yihan.wu@queensu.ca>
@@ -20,3 +20,7 @@ Imports:
     DT,
     rstudioapi
 RoxygenNote: 6.1.1
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
