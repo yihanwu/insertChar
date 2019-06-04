@@ -11,7 +11,7 @@ This is a RStudio addin for inserting special characters, similar to the "Insert
 
 # Usage
 
-[Gif of how to use addin](preview.gif)
+![Gif of how to use addin](preview.gif)
 
 To insert a symbol:
 
